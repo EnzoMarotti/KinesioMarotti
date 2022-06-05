@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>TurnosOnline</title>
+</head>
+<body>
+    <header class="header" >
+        <nav class="header__logo">
+            <nav>
+                <a href  ="../index.html"><img src="../Imagenes/LogoPrincipal.png" class="Logo" alt="Logo"></a> 
+            </nav>
+            <nav class="header__p" >
+                <p>
+                    SPINE TRAINING <br>
+                </p> 
+                <p>
+                    by: Enzo Marotti
+                </p>
+            </nav>
+        </nav>
+        
+        
+  
+        <section>
+            <ul class="Header__section__ul" >
+                <li> 
+                    <a class="section__ul__li"  href="../index.html" >INICIO</a>
+                </li>
+                <li >
+                    <a class="section__ul__li" href="./contactanos.html" >CONTACTANOS</a>
+                </li>
+                <li >
+                    <a class="section__ul__li" href="./sedes.html" >SEDES</a>
+                </li>
+                <li >
+                    <a class="section__ul__li" href="./Kinesiologos.html" >KINESIOLOGOS</a>
+                </li>
+                <li > 
+                    <a class="section__ul__li" href="./turnosOnline.html" >TURNOS ONLINE</a>
+                </li>
+            </ul>
+        </section>
+    
+    </header>
+<main>
+        <h1 class="turnos__title">DATOS PERSONALES</h1> 
+        <fieldset>
+
+            <form class="turnos__form" action="" method="get">
+                <label for="Username">Nombre</label> 
+                <input type="text" id="Username" required> <br>
+                
+                <label for="lastname">apellido</label>
+                <input type="text" id="lastname"required> <br>
+                
+                <label for="email">email</label>
+                <input type="email" id="email"required> <br>
+                
+                <label for="contact_number">telefono de contacto</label>
+                <input type="number" id="contact_number" required> <br>
+                
+                <label for="Birthdate">Fecha de naciemiento</label>
+                <input type="date" id="Birthdate" required> <br> <br>
+            
+                <div>
+                    Sexo
+                    <div>
+                      <label for="hombre">hombre</label>
+                      <input type="radio" name="Sexo" id="hombre" value="hombre">
+                    </div>
+                    <div>
+                      <label for="mujer">mujer</label>
+                      <input type="radio" name="Sexo" id="mujer" value="mujer"> 
+                    </div>
+                  </div>
+                  <br>
+                <div>
+                    <label for="Razon_de_la_consulta"> Razon de la consulta</label> <br>
+                    <textarea name="Razon_de_la_consulta" id="Razon_de_la_consulta"  cols="70" rows="8"></textarea>
+                </div>
+                
+                <input type="submit" name="enviar"> 
+           </form>
+        </fieldset>
+
+
+</main>
+<footer class="footer"> 
+    <img src="../Imagenes/LogoPrincipal.png" class="footer__img"  alt="logoPrincipalFooter">
+    <p>
+        2022 SpineTraining. Todos los derechos reservados
+    </p>
+</footer>
+</body>
+</html>
