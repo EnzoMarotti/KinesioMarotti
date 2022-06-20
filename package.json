@@ -1,16 +1,25 @@
 {
-  "name": "sass",
+  "name": "kinesiologiaenzo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css","watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "build-css": "node-sass --include path scss sass/main.scss sass/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoMarotti/KinesiologiaEnzo.git"
+  },
+  "author": "Enzo Marotti",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoMarotti/KinesiologiaEnzo/issues"
+  },
+  "homepage": "https://github.com/EnzoMarotti/KinesiologiaEnzo#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
