@@ -1,5 +1,7 @@
+@import "./maps";
+
 .header {
-    background-color: rgb(17, 15, 15);
+    background-color: map-get($colores,"Header" );
     width: 100%;
     display: flex;
     justify-content: space-between;

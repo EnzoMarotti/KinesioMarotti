@@ -1,3 +1,6 @@
+@import "./maps";
+
+
 .kinesiologos {
     padding: 0 0.5rem;
     .kinesiologos__title {
@@ -18,7 +21,7 @@
             border-color: grey;
             border-radius: 5%;
             border-width: thin;
-            background-color: rgb(206, 202, 197);
+            background-color: map-get($colores,"kinesiologos" );
             
             .img__kinesio {
                 height: 35vh;

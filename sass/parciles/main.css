@@ -93,7 +93,7 @@
   border-color: grey;
   border-radius: 5%;
   border-width: thin;
-  background-color: rgb(206, 202, 197);
+  background-color: rgba(222, 196, 165, 0.941);
 }
 .kinesiologos .kinesiologos__section .kinesiologos__nav .img__kinesio {
   height: 35vh;
