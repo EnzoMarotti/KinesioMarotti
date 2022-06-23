@@ -145,6 +145,7 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
   align-items: center;
   height: 100%;
   font-size: 30px;
+  text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
@@ -264,6 +265,96 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
   font-size: 54px;
   text-transform: uppercase;
   background-image: url(../../../Imagenes/educationMain.jpg);
+}
+
+.educacion__lumbar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/education4.png);
+}
+
+.educacion__fascitisplantar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/education3.png);
+}
+
+.educacion__osteoartritis {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/education2.png);
+}
+
+.educacion__pilates {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/education5.png);
+}
+
+.educacion__rodilla {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/education6.png);
+}
+
+.educacion__sonido {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/education1.png);
 }
 
 .turnos_mapa {

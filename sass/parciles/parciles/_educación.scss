@@ -2,3 +2,33 @@
     @include cabecera;
     background-image: url(../../../Imagenes/educationMain.jpg);
 }
+
+
+.educacion__lumbar{
+    @include subservicios   ;
+    background-image: url(../../../Imagenes/education4.png);
+}
+
+.educacion__fascitisplantar {
+    @include subservicios;
+    background-image: url(../../../Imagenes/education3.png);
+}
+
+.educacion__osteoartritis{
+    @include subservicios;
+    background-image: url(../../../Imagenes/education2.png);
+}
+
+.educacion__pilates{
+    @include subservicios;
+    background-image: url(../../../Imagenes/education5.png);
+}
+.educacion__rodilla{
+    @include subservicios;
+    background-image: url(../../../Imagenes/education6.png);
+}
+
+.educacion__sonido{
+    @include subservicios;
+    background-image: url(../../../Imagenes/education1.png);
+}
