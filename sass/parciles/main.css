@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/*  utilice el mixin para hacer la imagen cabecera de las paginas "educación" y "servicios" donde 
+tienen las mismas propiedades pero cambia la imagen de fondo.  */
+/* El otro mixin esta utilizado en Subclaseservicios.scss  */
 * {
   margin: 0;
   padding: 0;
@@ -107,7 +111,6 @@
 }
 
 .servicios__section {
-  background-image: url(../../Imagenes/Servicios\ main.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,6 +121,8 @@
   font-weight: 600;
   color: rgba(255, 255, 255, 0.795);
   font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../Imagenes/Servicios\ main.jpg);
 }
 
 .servicioscontainer {
@@ -147,11 +152,11 @@
   opacity: 0.5;
 }
 
-.subservicios_portada {
+.subservicios__tobilloypie {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,6 +164,82 @@
   color: rgba(255, 255, 255, 0.795);
   font-size: 54px;
   text-transform: uppercase;
+  background-image: url(../../../Imagenes/servicios1.jpg);
+}
+
+.subservicios__rodilla {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/servicios2.jpg);
+}
+
+.subservicios__ejercicio {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/servicios3.jpg);
+}
+
+.subservicios__dolor {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/servicios4.jpg);
+}
+
+.subservicios__acupuntura {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/servicios5.jpg);
+}
+
+.subservicios__ondadechoque {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/servicios6.jpg);
 }
 
 .subservicios__parrafo {
@@ -171,7 +252,6 @@
 }
 
 .educacion__section {
-  background-image: url(../../../Imagenes/educationMain.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,6 +262,8 @@
   font-weight: 600;
   color: rgba(255, 255, 255, 0.795);
   font-size: 54px;
+  text-transform: uppercase;
+  background-image: url(../../../Imagenes/educationMain.jpg);
 }
 
 .turnos_mapa {

@@ -1,0 +1,32 @@
+@mixin cabecera {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+@mixin subservicios {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 54px;
+   text-transform: uppercase;
+}
+/*  utilice el mixin para hacer la imagen cabecera de las paginas "educación" y "servicios" donde 
+tienen las mismas propiedades pero cambia la imagen de fondo.  */
+
+
+/* El otro mixin esta utilizado en Subclaseservicios.scss  */

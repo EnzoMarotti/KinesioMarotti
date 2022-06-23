@@ -1,16 +1,34 @@
-.subservicios_portada {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.795);
-    font-size: 54px;
-   text-transform: uppercase;
+
+.subservicios__tobilloypie {
+    @include subservicios;
+    background-image: url(../../../Imagenes/servicios1.jpg);
 }
+
+.subservicios__rodilla {
+    @include subservicios;
+    background-image: url(../../../Imagenes/servicios2.jpg);
+}
+
+.subservicios__ejercicio{
+   @include subservicios;
+   background-image: url(../../../Imagenes/servicios3.jpg);
+}
+
+.subservicios__dolor {
+    @include subservicios;
+    background-image: url(../../../Imagenes/servicios4.jpg);
+}
+
+.subservicios__acupuntura{
+    @include subservicios;
+    background-image: url(../../../Imagenes/servicios5.jpg);
+}
+
+.subservicios__ondadechoque {
+    @include subservicios;
+    background-image: url(../../../Imagenes/servicios6.jpg);
+}
+
 
 .subservicios__parrafo{
     display: flex;
@@ -20,3 +38,6 @@
     font-size: 15px;
     font-family: var( --e-global-typography-text-font-family ), Sans-serif; 
 }
+
+
+
