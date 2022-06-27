@@ -3,3 +3,31 @@
     flex-direction: column;
     align-items: center;
 }
+
+.turnos_ubicacion{
+    @extend .Turnos_ReservaTitle;
+}
+
+.Turnos_HorariosTitle{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    @media screen and (max-width: 767.5px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0;
+      }
+}
+
+.Horarios {
+    background-color: rgba(139, 147, 146, 0.32);
+    
+}
+
+.Turnos_ReservaTitle {
+    @extend .Turnos_HorariosTitle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

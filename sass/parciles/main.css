@@ -2,6 +2,7 @@
 /*  utilice el mixin para hacer la imagen cabecera de las paginas "educación" y "servicios" donde 
 tienen las mismas propiedades pero cambia la imagen de fondo.  */
 /* El otro mixin esta utilizado en Subclaseservicios.scss  */
+/* El extend está utilizado en la clase "turnos.scss  */
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +46,13 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
   align-items: center;
   padding: 1.5rem;
   color: rgb(133, 38, 38);
+}
+.hero .hero__h2, .hero .hero__p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.hero .hero__p {
+  font-size: 15px;
 }
 
 .body {
@@ -361,4 +369,28 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.Turnos_HorariosTitle, .Turnos_ReservaTitle, .turnos_ubicacion {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 767.5px) {
+  .Turnos_HorariosTitle, .Turnos_ReservaTitle, .turnos_ubicacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+}
+
+.Horarios {
+  background-color: rgba(139, 147, 146, 0.32);
+}
+
+.Turnos_ReservaTitle, .turnos_ubicacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
