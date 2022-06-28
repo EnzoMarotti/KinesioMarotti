@@ -1,10 +1,22 @@
 
 .cards1{
     background-color: map-get($colores,"backgroundIndex" );
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-img-top {
+        height: 200px;
+        width: 250 px;
+    
+    }
+    .card_boton {
+        background-color:#0d6efd;
+    }
+    .card_boton:hover {
+        transition-duration: 400ms;
+        background-color: red;
+    }
 }
 
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}

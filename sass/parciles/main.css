@@ -62,11 +62,21 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
 .cards1 {
   background-color: rgba(230, 108, 48, 0.742);
 }
-
-.card-body {
+.cards1 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.cards1 .card-img-top {
+  height: 200px;
+  width: 250 px;
+}
+.cards1 .card_boton {
+  background-color: #0d6efd;
+}
+.cards1 .card_boton:hover {
+  transition-duration: 400ms;
+  background-color: red;
 }
 
 .footer {
