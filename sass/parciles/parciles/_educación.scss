@@ -4,7 +4,7 @@
 }
 
 
-.educacion__lumbar{
+.educacion__fisioterapia{
     @include subservicios;
     background-image: url(../../../Imagenes/education4.png);
 }
@@ -22,6 +22,7 @@
 .educacion__pilates{
     @include subservicios;
     background-image: url(../../../Imagenes/education5.png);
+
 }
 .educacion__rodilla{
     @include subservicios;
