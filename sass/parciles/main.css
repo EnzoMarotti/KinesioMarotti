@@ -129,7 +129,7 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
   gap: 1.5rem;
 }
 .kinesiologos .kinesiologos__section .kinesiologos__nav {
-  max-width: 400px;
+  max-width: 350px;
   display: flex;
   padding: 1rem 0.5rem;
   flex-direction: column;
