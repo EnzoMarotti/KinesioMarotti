@@ -123,7 +123,7 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
 .kinesiologos .kinesiologos__section {
   margin: 2.5rem 0.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   gap: 1.5rem;
 }
 .kinesiologos .kinesiologos__section .kinesiologos__nav {
