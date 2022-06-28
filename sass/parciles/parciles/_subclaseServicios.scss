@@ -33,10 +33,24 @@
 .subservicios__parrafo{
     display: flex;
     flex-direction: column;
-    padding: 2rem 1.5rem;
+    padding: 2rem 2.5rem;
     justify-content: space-between;
     font-size: 15px;
-    font-family: var( --e-global-typography-text-font-family ), Sans-serif; 
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+    }
+    p{
+        padding: 1rem 0rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        strong{
+            font-size: 18px;
+            color: rgb(69, 67, 77);
+            text-decoration: underline;
+        }
+    }
 }
 
 
