@@ -25,11 +25,43 @@
     font-size: 54px;
    text-transform: uppercase;
 }
-/*  utilice el mixin para hacer la imagen cabecera de las paginas "educación" y "servicios" donde 
-tienen las mismas propiedades pero cambia la imagen de fondo.  */
 
+@mixin h2 {
+    font-size: 3rem;
+    padding: 2rem;
+    color: map-get($colores,"beige");
+    text-align: center;
+    @media only screen and (max-width:768px){
+        font-size: 2.5rem;
+    }
+}
 
-/* El otro mixin esta utilizado en Subclaseservicios.scss  */
+@mixin hr {
+    border-style: solid;
+    border-width: 0.15rem;
+    border-color: map-get($colores,"beige")
+}
 
+@mixin p {
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: map-get($colores,"beige");
+    text-align: center;
+    @media only screen and (max-width:768px){
+            font-size: 1.25rem;
+    }
 
-/* El extend está utilizado en la clase "turnos.scss  */
+}
+
+@mixin card {
+    background-color: map-get($colores,"beige");
+    color: map-get($colores,"marron");
+    border-radius: 1rem;
+}
+
+@mixin img {
+    width:85%;
+    border-radius: 5%;
+    padding: 1rem;
+}
+

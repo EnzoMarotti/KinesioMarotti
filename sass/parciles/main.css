@@ -1,8 +1,3 @@
-@charset "UTF-8";
-/*  utilice el mixin para hacer la imagen cabecera de las paginas "educación" y "servicios" donde 
-tienen las mismas propiedades pero cambia la imagen de fondo.  */
-/* El otro mixin esta utilizado en Subclaseservicios.scss  */
-/* El extend está utilizado en la clase "turnos.scss  */
 * {
   margin: 0;
   padding: 0;
@@ -113,42 +108,50 @@ tienen las mismas propiedades pero cambia la imagen de fondo.  */
   height: 6.25rem;
 }
 
-.kinesiologos {
-  padding: 0 0.5rem;
-}
-.kinesiologos .kinesiologos__title {
+.quienes__h2 {
+  font-size: 3rem;
+  padding: 2rem;
   text-align: center;
-  margin-top: 2rem;
 }
-.kinesiologos .kinesiologos__section {
-  margin: 2.5rem 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+@media only screen and (max-width: 768px) {
+  .quienes__h2 {
+    font-size: 2.5rem;
+  }
 }
-.kinesiologos .kinesiologos__section .kinesiologos__nav {
-  max-width: 350px;
-  display: flex;
-  padding: 1rem 0.5rem;
-  flex-direction: column;
-  align-items: center;
+.quienes__hr {
   border-style: solid;
-  border-color: grey;
-  border-radius: 5%;
-  border-width: thin;
-  background-color: rgba(222, 196, 165, 0.941);
+  border-width: 0.15rem;
 }
-.kinesiologos .kinesiologos__section .kinesiologos__nav .img__kinesio {
-  height: 35vh;
-  width: 30vh;
-  border-radius: 5%;
-  margin-top: 1rem;
+.quienes__p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: center;
 }
-.kinesiologos .kinesiologos__section .kinesiologos__nav .kinesiologos__p {
-  margin-top: 1.5rem;
-  display: flex;
+@media only screen and (max-width: 768px) {
+  .quienes__p {
+    font-size: 1.25rem;
+  }
+}
+.quienes__img {
+  width: 85%;
+  border-radius: 5%;
+  padding: 1rem;
+}
+.quienes__card {
+  border-radius: 1rem;
+}
+.quienes__card--img {
+  width: 50%;
+  border-radius: 1rem;
+  padding-top: 3rem;
+}
+.quienes__card--p {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .quienes__card--p {
+    font-size: 1.25rem;
+  }
 }
 
 .servicios__section {

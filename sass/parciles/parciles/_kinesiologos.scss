@@ -1,45 +1,32 @@
 
-.kinesiologos {
-    padding: 0 0.5rem;
-    .kinesiologos__title {
-        text-align: center;
-        margin-top:2rem ;
+
+.quienes{
+    background-color: map-get($colores,"marron");
+    &__h2{
+        @include h2
     }
-    .kinesiologos__section {
-        margin: 2.5rem 0.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-        .kinesiologos__nav {
-            max-width: 350px;
-            display: flex;
-            padding: 1rem 0.5rem;
-            flex-direction: column;
-            align-items: center;
-            border-style: solid;
-            border-color: grey;
-            border-radius: 5%;
-            border-width: thin;
-            background-color: map-get($colores,"kinesiologos" );
-            
-            .img__kinesio {
-                height: 35vh;
-                width: 30vh;
-                border-radius: 5%;
-                margin-top: 1rem;
-            }
-            .kinesiologos__p {
-                margin-top: 1.5rem;
-                display: flex;
+    &__hr{
+        @include hr
+    }
+    &__p{
+        @include p
+    }
+    &__img{
+        @include img
+    }
+    &__card{
+        @include card;
+        &--img{
+            width:50%;
+            border-radius: 1rem;
+            padding-top: 3rem;
+        }
+        &--p{
+            color: map-get($colores,"marron");
+            font-size: 1.5rem;
+            @media only screen and (max-width:768px){
+                font-size: 1.25rem;
             }
         }
-    }
+      }
 }
-
-
-
-
-
-
