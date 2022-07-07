@@ -14,12 +14,18 @@
     &__img{
         @include img
     }
+    &__personal{
+        display:flex;
+        align-items: center;
+        background-color: beige;
+        
+    }
     &__card{
         @include card;
         &--img{
             width:50%;
             border-radius: 1rem;
-            padding-top: 3rem;
+            
         }
         &--p{
             color: map-get($colores,"marron");
