@@ -36,6 +36,13 @@
     }
 }
 
+@mixin h3 {
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+    }
+}
+
 @mixin hr {
     border-style: solid;
     border-width: 0.15rem;
@@ -43,14 +50,20 @@
 }
 
 @mixin p {
-    font-size: 1.5rem;
-    padding: 2rem;
-    color: map-get($colores,"beige");
-    text-align: center;
+            padding: 1rem 0rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 500;
     @media only screen and (max-width:768px){
             font-size: 1.25rem;
     }
 
+}
+
+@mixin li {
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
 
 @mixin card {

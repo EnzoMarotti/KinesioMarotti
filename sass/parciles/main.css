@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  @import url("https://fonts.google.com/share?selection.family=Montserrat:wght@300;400;600%7CRoboto:wght@300;500;700");
 }
 
 .header {
@@ -51,7 +52,11 @@
 }
 
 .body {
-  background-color: whitesmoke;
+  background-color: rgba(238, 227, 227, 0.475);
+}
+
+.cards1 {
+  background-color: rgba(230, 108, 48, 0.742);
 }
 
 .card {
@@ -74,24 +79,15 @@
   font-weight: 600;
   font-size: 22px;
 }
-
-.cards1 {
-  background-color: rgba(230, 108, 48, 0.742);
-}
-.cards1 .card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.cards1 .card-img-top {
+.card .card-img-top {
   height: 200px;
 }
-.cards1 .card_boton {
-  background-color: #0d6efd;
+.card .btn {
+  background-color: #4609fa;
 }
-.cards1 .card_boton:hover {
+.card .btn:hover {
   transition-duration: 400ms;
-  background-color: red;
+  background-color: rgba(17, 0, 255, 0.607);
 }
 
 .footer {
@@ -123,9 +119,10 @@
   border-width: 0.15rem;
 }
 .quienes__p {
-  font-size: 1.5rem;
-  padding: 2rem;
-  text-align: center;
+  padding: 1rem 0rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
 }
 @media only screen and (max-width: 768px) {
   .quienes__p {
@@ -137,10 +134,32 @@
   border-radius: 5%;
   padding: 1rem;
 }
+.quienes__section {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 .quienes__personal {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: beige;
+  justify-content: space-around;
+  background-color: rgb(169, 143, 57);
+  width: 500px;
+  border-radius: 5%;
+  color: white;
+}
+.quienes__personal__img {
+  padding-top: 1rem;
+  border-radius: 5%;
+  width: 90%;
+  height: 70%;
+}
+.quienes__personal__p {
+  font-size: 25px;
+  padding: 0 2rem;
 }
 .quienes__card {
   border-radius: 1rem;
@@ -298,7 +317,7 @@
   justify-content: space-between;
   font-size: 15px;
 }
-.subservicios__parrafo h3 {
+.subservicios__parrafo h3 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
 }
@@ -308,10 +327,33 @@
   font-size: 17px;
   font-weight: 500;
 }
+@media only screen and (max-width: 768px) {
+  .subservicios__parrafo p {
+    font-size: 1.25rem;
+  }
+}
 .subservicios__parrafo p strong {
   font-size: 18px;
   color: rgb(69, 67, 77);
   text-decoration: underline;
+}
+
+.serv1 {
+  align-items: center;
+}
+.serv1 h3 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+.serv1 li {
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+.serv1 img {
+  height: 300px;
+  width: auto;
+  border-radius: 5%;
 }
 
 .educacion__section {
@@ -417,6 +459,33 @@
   font-size: 54px;
   text-transform: uppercase;
   background-image: url(../../../Imagenes/education1.png);
+}
+
+.educacion {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2.5rem;
+  justify-content: space-between;
+}
+.educacion h3 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+.educacion p {
+  padding: 1rem 0rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  .educacion p {
+    font-size: 1.25rem;
+  }
+}
+.educacion p strong {
+  font-size: 20px;
+  color: rgb(69, 67, 77);
+  text-decoration: underline;
 }
 
 .turnos_mapa {

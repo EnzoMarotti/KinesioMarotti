@@ -33,3 +33,22 @@
     @include subservicios;
     background-image: url(../../../Imagenes/education1.png);
 }
+
+.educacion{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2.5rem;
+    justify-content: space-between;
+    h3{
+     @include h3
+    }
+    p{
+        @include p;
+        strong{
+            font-size: 20px;
+            color: rgb(69, 67, 77);
+            text-decoration: underline;
+        }
+    }
+}
+

@@ -1,3 +1,7 @@
+.cards1{
+    background-color: map-get($colores,"backgroundIndex" );
+    
+}
 
 .card{
     padding: 0rem; 
@@ -18,24 +22,18 @@
             font-size: 22px;
         }
     }
-}
-
-.cards1{
-    background-color: map-get($colores,"backgroundIndex" );
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
     .card-img-top {
         height: 200px;
     }
-    .card_boton {
-        background-color:#0d6efd;
+    .btn {
+        background-color:#4609fa;
     }
-    .card_boton:hover {
+    .btn:hover {
         transition-duration: 400ms;
-        background-color: red;
+        background-color: rgba(17, 0, 255, 0.607);
     }
 }
+
+
+
 

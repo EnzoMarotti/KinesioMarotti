@@ -37,14 +37,10 @@
     justify-content: space-between;
     font-size: 15px;
     h3{
-        font-family: 'Roboto', sans-serif;
-        font-size: 28px;
+    @include h3
     }
     p{
-        padding: 1rem 0rem;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 17px;
-        font-weight: 500;
+        @include p;
         strong{
             font-size: 18px;
             color: rgb(69, 67, 77);
@@ -52,6 +48,22 @@
         }
     }
 }
+
+.serv1{
+    align-items: center;
+    & h3{
+        @include h3;
+    }
+    & li{
+        @include li;
+    }
+    & img {
+        height: 300px;
+        width: auto;
+        border-radius: 5%;
+    }
+}
+
 
 
 

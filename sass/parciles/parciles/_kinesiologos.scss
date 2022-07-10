@@ -14,11 +14,34 @@
     &__img{
         @include img
     }
+
+    &__section{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
     &__personal{
         display:flex;
+        flex-direction:column;
         align-items: center;
-        background-color: beige;
+        justify-content:space-around;
+        background-color: rgb(169, 143, 57);
+        width: 500px;
+        border-radius: 5%;
+        color: white;
         
+        &__img {
+            padding-top: 1rem;
+            border-radius: 5%;
+            width: 90%;
+            height: 70%;
+        }
+        &__p{
+            font-size: 25px;
+            padding:0 2rem;
+        }
     }
     &__card{
         @include card;
