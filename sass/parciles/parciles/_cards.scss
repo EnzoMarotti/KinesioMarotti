@@ -1,6 +1,13 @@
 .cards1{
     background-color: map-get($colores,"backgroundIndex" );
-    
+    .row {
+        @media only screen and (min-width:1057px){
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 1rem;
+            justify-items: center;
+    }
 }
 
 .card{
@@ -10,6 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content:space-evenly !important;
+    }
     .card-img-top {
         height: 200px;
     }
@@ -33,6 +41,7 @@
         background-color: rgba(17, 0, 255, 0.607);
     }
 }
+
 
 
 
