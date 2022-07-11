@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap');
 
 .quienes{
     background-color: map-get($colores,"marron");
@@ -43,19 +44,43 @@
             padding:0 2rem;
         }
     }
-    &__card{
-        @include card;
-        &--img{
-            width:50%;
-            border-radius: 1rem;
-            
-        }
-        &--p{
-            color: map-get($colores,"marron");
-            font-size: 1.5rem;
-            @media only screen and (max-width:768px){
-                font-size: 1.25rem;
-            }
-        }
-      }
+}
+
+
+.box{
+  width: 300px; height: 650px; margin: auto;
+  background-color: transparent; border: solid 3px #fff;
+  margin-bottom: 90px;
+  background: linear-gradient(rgb(228, 217, 180), white) no-repeat center center;
+  background-size: 300px 210px;
+  background-position:left top;
+  background-color: #fff;
+}
+.text{
+    padding-top: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px; position: absolute center;
+  display: inline-block; text-align: center;
+  padding-left: 4%;
+}
+.text1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 29px; text-align: center;
+  margin-top: -40px;
+  padding-top: 1rem;
+}
+.text2{
+  font-family: 'Lato', sans-serif; font-size: 18px; text-align: left;
+  margin-top: 20px; margin-left: 20px; margin-right: 20px; 
+  padding-top: 20px;padding-bottom: 20px; padding-left: 15px; 
+  padding-right: 15px;
+  border: solid 3px #eee;
+}
+.image{
+  text-align: center;
+  width: 250px; height: 250px;
+  box-shadow: 0 0 0 2px #eee;
+  background: url("../../../Imagenes/kinesiologos/enzo.PNG")  top no-repeat; background-size: cover; margin: 8%;
+  margin-top: 50px; margin-bottom: -30px; align-content: center;
+  border-radius: 50%;
 }
