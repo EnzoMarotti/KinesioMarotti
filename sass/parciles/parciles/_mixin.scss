@@ -36,6 +36,14 @@
 }
 }
 
+@mixin Queriesservicios {
+    @media only screen and (min-width:1175px){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+}
+
 @mixin h2 {
     font-size: 3rem;
     padding: 2rem;
@@ -47,16 +55,13 @@
 }
 
 @mixin h3 {
-    h3{
         font-family: 'Roboto', sans-serif;
         font-size: 28px;
-    }
 }
 
 @mixin hr {
     border-style: solid;
     border-width: 0.15rem;
-    border-color: map-get($colores,"beige")
 }
 
 @mixin p {
@@ -76,14 +81,9 @@
     font-size: 17px;
 }
 
-@mixin card {
-    background-color: map-get($colores,"beige");
-    color: map-get($colores,"marron");
-    border-radius: 1rem;
-}
 
 @mixin img {
-    width:85%;
+    width:75%;
     border-radius: 5%;
     padding: 1rem;
 }

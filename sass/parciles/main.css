@@ -166,14 +166,20 @@
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 500;
+  padding: 2rem;
+  font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
   .quienes__p {
     font-size: 1.25rem;
   }
 }
+.quienes__p .quienes__b {
+  font-size: 30px;
+  font-style: italic;
+}
 .quienes__img {
-  width: 85%;
+  width: 75%;
   border-radius: 5%;
   padding: 1rem;
 }
@@ -205,7 +211,13 @@
   padding: 0 2rem;
 }
 
-.box {
+.personal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.personal .box {
   width: 300px;
   height: 650px;
   margin: auto;
@@ -217,26 +229,44 @@
   background-position: left top;
   background-color: #fff;
 }
-
-.text {
+.personal .box .image, .personal .box .image3, .personal .box .image2 {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 0 2px #eee;
+  background: url("../../../Imagenes/kinesiologos/enzo.PNG") top no-repeat;
+  background-size: cover;
+  margin: 8%;
+  align-content: center;
+  border-radius: 50%;
+}
+.personal .box .image2 {
+  background: url("../../../Imagenes/kinesiologos/Ruben.PNG") top no-repeat;
+  background-size: cover;
+  margin: 8%;
+}
+.personal .box .image3 {
+  background: url("../../../Imagenes/kinesiologos/Rodrigo.PNG") top no-repeat;
+  background-size: cover;
+  margin: 8%;
+}
+.personal .text {
+  display: flex;
+  justify-content: center;
   padding-top: 1.5rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 45px;
+  font-size: 35px;
   position: absolute center;
-  display: inline-block;
-  text-align: center;
   padding-left: 4%;
 }
-
-.text1 {
+.personal .text1 {
   font-family: "Open Sans", sans-serif;
   font-size: 29px;
   text-align: center;
   margin-top: -40px;
   padding-top: 1rem;
 }
-
-.text2 {
+.personal .text2 {
   font-family: "Lato", sans-serif;
   font-size: 18px;
   text-align: left;
@@ -248,20 +278,6 @@
   padding-left: 15px;
   padding-right: 15px;
   border: solid 3px #eee;
-}
-
-.image {
-  text-align: center;
-  width: 250px;
-  height: 250px;
-  box-shadow: 0 0 0 2px #eee;
-  background: url("../../../Imagenes/kinesiologos/enzo.PNG") top no-repeat;
-  background-size: cover;
-  margin: 8%;
-  margin-top: 50px;
-  margin-bottom: -30px;
-  align-content: center;
-  border-radius: 50%;
 }
 
 .servicios__section {
@@ -286,12 +302,23 @@
   gap: 1.5rem;
   padding: 1.5rem 0rem;
 }
+@media only screen and (min-width: 1175px) {
+  .servicioscontainer .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
 .servicioscontainer .servicioscard {
   height: auto;
   width: 22rem;
+  text-decoration: none;
   background-color: black;
   opacity: 1;
   cursor: pointer;
+}
+.servicioscontainer .servicioscard a {
+  text-decoration: none;
 }
 .servicioscontainer .servicioscard .card-title {
   display: flex;
@@ -404,7 +431,7 @@
   justify-content: space-between;
   font-size: 15px;
 }
-.subservicios__parrafo h3 h3 {
+.subservicios__parrafo h3 {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
 }
@@ -428,7 +455,7 @@
 .serv1 {
   align-items: center;
 }
-.serv1 h3 h3 {
+.serv1 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
 }
@@ -554,7 +581,7 @@
   padding: 2rem 2.5rem;
   justify-content: space-between;
 }
-.educacion h3 h3 {
+.educacion h3 {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
 }

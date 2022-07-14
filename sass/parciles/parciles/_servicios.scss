@@ -4,14 +4,21 @@
 }
 
 .servicioscontainer{
+    .row{
+        @include Queriesservicios;
+    }
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
     gap: 1.5rem;
     padding: 1.5rem 0rem;
     .servicioscard{
+        a {
+            text-decoration: none;
+        }
         height: auto; 
         width: 22rem;
+        text-decoration: none; 
         background-color: black;
         opacity: 1;
         cursor: pointer;
@@ -21,9 +28,9 @@
             align-items: center;
             height: 100%;
             font-size: 30px;
-            text-transform: uppercase;
-       
+            text-transform: uppercase;  
             color: rgb(0, 0, 0);
+            
         }
     }
 }
